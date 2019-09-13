@@ -1,0 +1,238 @@
+/*start body*/
+.background-image{
+    background-image: image(batik.jpg);
+}
+/*end body*/
+
+/*start debug*/
+.bg-blue{
+    background-color:rgb(190, 223, 7);
+}
+.bg-red{
+    background-color:yellow;
+}
+.bg-yellow{
+    background-color: darkgoldenrod
+}
+/*end debug*/
+
+/* start container */
+.container{
+    margin: 14px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+.container-full{
+    margin: 30px auto;
+    overflow: auto;
+    width: 100%;
+    text-align: center
+}
+/* end container */
+
+/*start logo*/
+.logo {
+    text-align: center;
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+/*end logo*/
+
+/*start anchor / hyperlink*/
+a:link.
+a:visited {
+    color: darkmagenta
+    text-decoration:none;
+}
+a:hover.
+a.active{
+    color:brown
+    text-decooration: underline;
+}
+/*end anchor / hyperlink*/
+
+/*start menu primer*/
+.container-menu-primer ul {
+    background-color: rgb(255, 11, 11);
+    border: red 1px solid;
+    box-shadow:     0 3px 5px-1px rgb(0,0,0,.2);
+                    0 6px 10px 0 rgb(0, 0, 0,.14);
+                    0 1px 18px 0 rgb(0, 0, 0,.12);
+} 
+.container-menu-primer li a{
+    border: red 1px solid; 
+}
+
+.container-menu-primer li {
+    border
+    margin: 15px;
+    float: left;
+    height: ;
+    width: ;
+}
+
+.menu-primer a{
+    color: darkcyan;
+    font-size:13px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.menu-primer a:hover{
+    background-color: crimson;
+    color: yellowgreen;
+    text-decoration: blueviolet;
+} 
+
+.menu-primer .active{
+    background-color: darkgreen;
+    color: red;
+    text-decoration: darkslategrey;
+}
+
+/*end menu primer*/
+
+/*start heading*/
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    letter-spacing: 30px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}h3{
+    font-size: 18px;
+}h4{
+    font-size: 16px;
+}h5{
+    font-size: 14px;
+}h6{
+    font-size: 13px;
+}
+/*end heading*/
+
+/*start jumbroton*/
+.jumbroton {
+    background-color: darkorange;
+    border: 1px solid rebeccapurple;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+.jumbroton h1 {
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbroton h3 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+/*end jumbroton*/
+
+/*start main*/
+.main-home-one{
+    float: left;
+    width: 49.5%;
+}
+
+.main-home-two{
+    float:right;
+    width: 49.5%;
+}
+
+.main-home-one .box-isi ,
+.main-home-two .box-isi{
+    height: 140px;
+}
+/*end main*/
+
+/*start box*/
+.box-heading {
+    background-color: blue;
+    border: 1px solid yellowgreen;
+    border-radius: 3px 3px 0 0;
+    margin:0;
+    padding: 10px 20px ;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin:0;
+}
+.box-isi{
+    background-color: red;
+    border: 1px solid royalblue;
+    border-top: 0;
+    margin:0;
+    padding: 0;
+    text-transform: uppercase;
+}
+/*end box*/
+
+/* start testimonial*/
+.testimonial{
+    border-left: 4px solid #d1d5da
+    margin-left: 30px;
+    padding-left:20px;
+}
+/* end testimonial*/
+
+/*start menu sekunder*/
+.menu-sekunder{
+    background-color: blueviolet
+    border-botton: 1px solid #d1d5da;
+    border-top: 1px solid #222222
+    overflow:auto;
+    padding: 10px 0;
+}
+.menu-sekunder h4 {
+    font: size 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.menu-sekunder ul{
+    padding:0;
+}
+.menu-sekunderli{
+    list-style:disc;
+}
+
+.menu-sekunder li a, 
+.menu-sekunder p{
+    font-size: 30px;
+}
+
+.menu-sekunder-one{
+    float: left
+}
+.menu-sekunder-two{
+    float: right
+}
+.menu-sekunder-three{
+    text-align: center
+    width:40%
+}
+.menu-sekunder-two,
+.menu-sekunder-three{
+    width:30%
+}
+.menu-sekunder li img {
+    vertical-align: left;
+}
+/*end menu sekunder*/
+
+/*start copyright*/
+.copyright p{
+    font: size 15px;
+}
+/*end copyright*/
+/*start media sosial*/
+.start-media-sosial{
+    background-image: image(hi.jfif)
+
+}
+/*end media sosial*/
